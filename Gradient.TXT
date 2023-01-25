@@ -1,0 +1,15 @@
+<div class="contenedor">
+        <div class="caja c1 ">
+            <p>PRIMERO</p>
+        </div>
+        <div class="caja c2 ">
+            <p>SEGUNDO</p>
+        </div>
+
+        <div class="caja c3" <p>TERCERO</p>
+        </div>
+
+        <div class="caja c4">
+            <p>CUARTO</p>
+        </div>
+    </div>

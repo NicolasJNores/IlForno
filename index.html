@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Link a Bootstrap (antes del CSS para q no se pisen)-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <!--Conexion a CSS-->
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Il Forno</title>
+</head>
+
+<body>
+
+    <!--Menu de Navegacion-->
+
+    <header>
+        <nav class="navbar bg-dark fixed-top navbar-expand-md">
+            <div class="container-fluid">
+                <a class="navbar-brand fs-1 text-white " href="./index.html">
+                    <span class="second-color">Il</span> For<span class="third-color">no</span>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar"
+                    aria-labelledby="offcanvasDarkNavbarLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title fw-bold text-white" id="offcanvasNavbarLabel"><span
+                                class="second-color">Il</span> For<span class="third-color">no</span></h5>
+                        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+                            aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                            <li class="nav-item">
+                                <a class="nav-link active text-white" aria-current="page" href="./index.html">Inico</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="./pages/productos.html">Productos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="./pages/contacto.html">Contacto</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!--Contenido de Pagina principal-->
+
+
+
+    <main class="main" id="main"> <!-- main = etiqueta que encierra contenido principal-->
+
+        <!--Contenedor Bootstrap-->
+        <section class="hero">
+            <div class="container-md">
+                <h1 class="hero__titulo text-start">Bienvenidos a <span class="second-color">Il</span> For<span
+                        class="third-color">no</span></h1>
+                <p class="text-white">Te invitamos a <span class="second-color">disfrutar</span> una <span
+                        class="third-color">experiencia</span>
+                    100% Italiana. Sentite en Napoli con nuestras autenticas pizzas y nuestra calidad atención.
+                </p>
+                <a href="./pages/contacto.html" class="btn">
+                    <button type="button" class="btn btn-danger d-flex p-2">Reservar</button>
+                </a>
+            </div>
+        </section>
+
+        <!-- Sobre nosotros  -->
+
+
+
+
+        <section class="bg-dark ">
+            <!--dentro de row van las columnas-->
+            <div class="row">
+                <!--con d-flex dentro de la clase se aplica flex box-->
+                <div class="col-md-6 p-5">
+                    <img src="./assets/pizza-chef-making-pizza-dough-with-copy-space.jpg" class="img-fluid"
+                        alt="Nuestro Equipo">
+                </div>
+                <div class="col-md-6 p-5">
+                    <p class="fw-normal text-white fs-2"><span class="second-color">Il</span> For<span
+                            class="third-color">no</span> está compuesto por
+                        profesionales dedicados y apasionados
+                        por la pizza y el servicio al
+                        cliente desde 2013. Contamos con un equipo de cocina especializado y experimentado, que prepara
+                        exquisitas pizzas
+                        respetando los procesos de los pizzaiolos napolitanos y utilizando ingredientes frescos y de la
+                        mejor calidad.
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!--Pie de Pagina-->
+    <footer>
+        <section>
+            <h3><span class="second-color">Il</span> For<span class="third-color">no</span></h3>
+            <ul>
+                <li>
+                    <a href="./index.html" class="footer-link">Inicio</a>
+                </li>
+                <li>
+                    <a href="./pages/productos.html" class="footer-link">Nuestros productos</a>
+                </li>
+                <li>
+                    <a href="./pages/contacto.html" class="footer-link">Contacto</a>
+                </li>
+            </ul>
+        </section>
+
+        <section>
+            <h3>Nuestras redes </h3>
+            <a href="" class="footer-link">Facebook</a>
+            <a href="" class="footer-link">Instagram</a>
+            <a href="" class="footer-link">Twitter</a>
+        </section>
+
+        <section>
+            <h3> Unite al newsletter</h3>
+            <form action="">
+                <label for="email">email</label>
+                <input type="email" name="email" placeholder="ingresar email">
+                <button type="submit" class="btn">Unirme</button>
+            </form>
+
+        </section>
+    </footer>
+
+    <!--Link al script de bootstrap (antes del cierre del body)-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
