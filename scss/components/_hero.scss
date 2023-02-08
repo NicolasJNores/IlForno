@@ -1,0 +1,25 @@
+/* MAIN */
+.hero {
+    background-image: url(../assets/pizza-in-oven.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+
+}
+
+.tarjetas {
+    font-family: 'Italianno', sans-serif;
+    font-size: 40px;
+}
+
+.hero__titulo {
+    font-family: Italianno;
+    font-size: 80px;
+    color: #fff;
+
+}

@@ -1,419 +1,258 @@
-
 /*incluir fuente localmente desde nuestra pc*/
 @font-face {
-    font-family: Italianno;
-    src: url(../assets/Italianno-Regular.ttf);
-}
+  font-family: Italianno;
+  src: url(../assets/Italianno-Regular.ttf); }
 
 /* * = selector universal para reseteo de estilos por default del html*/
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
 
 ul, ol, li {
-    list-style: none;
-}
+  list-style: none; }
 
 a {
-    text-decoration: none;
-}
-
+  text-decoration: none; }
 
 .second-color {
-    color: #008C45;
-}
-
-/* .btn {
-    color: #000;
-    background-color: #008C45;
-    padding: 10px;
-    width: 150px;
-    border-radius: 3px;
-    font-family: Italianno;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 24px;
-
-} */
+  color: #008C45; }
 
 .third-color {
-    color: #CD212A;
-}
+  color: #CD212A; }
 
 .btn {
-    /* color: #000; */
-    background-color: #CD212A;
-    padding: 0px;
-    width: 150px;
-    border-radius: 3px;
-    font-family: Italianno;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 24px;
-
-}
+  background-color: #CD212A;
+  padding: 0px;
+  width: 150px;
+  border-radius: 3px;
+  font-family: Italianno;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px; }
 
 /* HEADER */
 header {
-    /* background-color: #191919; */
-    font-family: Italianno;
-    height: 70px;
-    font-size: 32px;
-    /* position: sticky;
-    top: 0;
-    width: 100%;
-    z-index: 1; */
-}
+  font-family: Italianno;
+  height: 70px;
+  font-size: 32px; }
 
 .herobg {
-    background-image: url(../assets/nosotros.jpg);
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    color: #fff;
-    font-family: Italianno;
-    font-size: 40px;
-    width: 100%;
-    height: 300px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-
-/* nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 70px;
-    width: 100%;
-    padding: 10px;
-} */
-
-/* .nav a {
-    color: #fff;
-}
-
-.nav ul {
-    color: #fff;
-    display: flex;
-    justify-content: space-between;
-    width: 50%;
-    gap: 10px;
-}
-
-header a{
-    color: #fff;
-} */
-
-
+  background-image: url(../assets/nosotros.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: #fff;
+  font-family: Italianno;
+  font-size: 40px;
+  width: 100%;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
 
 /* MAIN */
 .hero {
-    background-image: url(../assets/pizza-in-oven.jpg);
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-
-}
-
-/* .conteiner-md {
-    padding: 200px 50px;
-    color: #fff;
-    width: 60%;
-    gap: 10px;
-} */
+  background-image: url(../assets/pizza-in-oven.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center; }
 
 .tarjetas {
-    font-family: 'Italianno', sans-serif;
-    font-size: 40px;
-    /* padding-right: 150px;
-    margin: 15px 0; */
-}
+  font-family: 'Italianno', sans-serif;
+  font-size: 40px; }
 
 .hero__titulo {
-    font-family: Italianno;
-    font-size: 80px;
-    color: #fff;
+  font-family: Italianno;
+  font-size: 80px;
+  color: #fff; }
 
-}
-
-/* .sub-titulo {
-    font-family: sans-serif;
-} */
-
-
-/* nosotros  */
-
-.col-md-6 {
-    font-family: 'Italianno';
-}
-
-
-
-/* .nosotros {
-    background: #191919;
-    display: flex;
-    padding: 30px;
-    gap: 10px;
-    color: #fff;
-    justify-content: space-around;
-    align-items: center;
-    height: 90vh;
-}
-
-.nosotros__info {
+/* FOOTER */
+footer {
+  background: #000;
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 20px; }
+  footer section {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    justify-content: space-between;
-    width: 40%;
-
-}
-
-.nosotros__info h2 {
+    color: #fff;
     font-family: Italianno;
-    font-size: 50px;
-    padding: 20px 0;
-}
+    font-size: 24px; }
+    footer section form {
+      display: flex;
+      flex-direction: column;
+      gap: 5px; }
+      footer section form input {
+        background-color: #191919;
+        color: #fff;
+        padding: 10px;
+        outline: none;
+        font-family: Italianno; }
+      footer section form button.btn {
+        width: 100%;
+        font-size: 24;
+        padding: 5px; }
+  footer .footer-link {
+    text-decoration: none;
+    color: #fff;
+    list-style: none; }
 
-.nosotros__info p {
-    font-family: 'Italianno', sans-serif;
-    font-size: 28px;
-}
-
-.nosotros img {
-    width: 40%;
-    height: 80%;
-    object-fit: cover;
-} */
-
-
-/* Espacio blanco */
-
-/* .blank{
-    margin: 200px;
-} */
+/* nosotros  */
+.col-md-6 {
+  font-family: 'Italianno'; }
 
 /* FONDO FIJO  */
 .fondo-fijo {
-    background-image: url(../assets/pizza-in-oven.jpg);
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    width: 100%;
-    height: 200px;
-}
-
+  background-image: url(../assets/pizza-in-oven.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 200px; }
 
 /* PAGINA PRODUCTOS*/
-
 .tarjetas {
-    background-color: #191919;
-    width: 100%;
-    padding: 40px 10px;
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    gap: 20px;
-}
-
+  background-color: #191919;
+  width: 100%;
+  padding: 40px 20px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 20px; }
 
 .card {
-    background-color: #eee;
-    width: 100%;
-    
-}
-
-/* .tarjet img {
-    width: 100%;
-    height: 400px;
-    object-fit: cover;
-}
-
-.tarjeta__contenedora {
-    padding: 10px;
-    font-family: Italianno;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-}
-
-.tarjeta__contenedora a {
-    color: #59CEE6;
-    background-color: #191919;
-    width: 100px;
-    align-self: flex-end;
-    padding: 10px;
-    text-align: center;
-}
-
-.tarjeta__contenedora p {
-    padding: 10px 0;
-    border-top: 1px solid #191919;
-    border-bottom: 1px solid #191919;
-    align-self: flex-end;
-    width: 100%;
-}
- */
-
-
+  background-color: #eee;
+  width: 100%;
+  padding-top: 5%;
+  padding-bottom: 5%; }
 
 .tarjetas__divisor {
-    background-image: url(../assets/nosotros.jpg);
-    background-attachment: fixed;
-    background-position: center;
-    background-size: cover;
-    height: 150px;
-    color: #fff;
-    font-family: Italianno;
-    font-size: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
+  background-image: url(../assets/nosotros.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  height: 150px;
+  color: #fff;
+  font-family: Italianno;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
 
 /* CONTACTO */
 .main {
-    background: #191919;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-
-}
+  background: #191919;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; }
 
 .formulario {
-    display: flex;
-    align-items: center;
-    width: 100%;
-    padding: 10px;
-}
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 10px; }
 
 .formulario img {
-    width: 60%;
-    height: 100%;
-    object-fit: cover;
-}
+  width: 60%;
+  height: 100%;
+  object-fit: cover; }
 
 .form {
-    background: #000;
-    color: #fff;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    gap: 10px;
-    padding: 20px;
-    margin: 20px;
-}
+  background: #000;
+  color: #fff;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 20px;
+  margin: 20px; }
 
 .form__content {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    font-family: Italianno;
-}
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-family: Italianno; }
 
 .form__content input {
-    padding: 10px;
-    font-family: Italianno;
-    background: #eee;
-    border-radius: 5px;
-}
+  padding: 10px;
+  font-family: Italianno;
+  background: #eee;
+  border-radius: 5px; }
 
 .form__content textarea {
-    resize: none;
-
-}
+  resize: none; }
 
 .form__content--check {
-    display: flex;
-    font-family: Italianno;
-    width: 40%;
-    align-items: center;
-    justify-content: space-between;
-}
-
+  display: flex;
+  font-family: Italianno;
+  width: 40%;
+  align-items: center;
+  justify-content: space-between; }
 
 .form__btn {
-    display: flex;
-    justify-content: flex-end;
-    gap: 10px;
-}
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px; }
 
 .btn--form {
-    background-color: rgb(149, 0, 0);
-}
+  background-color: #950000; }
 
+@media only screen and (max-width: 900px) {
+  .grilla {
+    background: #191919;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    grid-template-areas: 'area1 area2 area3'
+ 'area1 area4 area5 '
+ 'area6 area4 area7 '; }
+  .g__content {
+    font-size: 24px; } }
 
+@media only screen and (max-width: 600px) {
+  nav ul {
+    width: 70%; }
+  .grilla {
+    background: #191919;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    grid-template-areas: 'area1 area3'
+ 'area1 area3'
+ 'area6 area4'
+ 'area2 area2'
+ 'area5 area7'; } }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* FOOTER */
-
-footer {
-    background: #000;
-    display: flex;
-    justify-content: space-between;
-    padding: 30px 20px;
-}
-
-footer section {
-    display: flex;
+@media only screen and (max-width: 480px) {
+  header {
+    height: 100%; }
+  nav {
     flex-direction: column;
-    color: #fff;
-    font-family: Italianno;
-    font-size: 24px;
-}
-
-.footer-link {
-    text-decoration: none;
-    color: #fff;
-    list-style: none;
-}
-
-footer section form input {
-    background-color: #191919;
-    color: #fff;
-    padding: 10px;
-    outline: none;
-    font-family: Italianno;
-}
-
-footer section form {
+    height: 100%; }
+  nav ul {
+    flex-direction: column; }
+  .grilla {
+    background: #fff;
     display: flex;
+    flex-direction: column; }
+  .flex-img {
     flex-direction: column;
-    gap: 5px;
-}
-
-footer section form button.btn {
-    width: 100%;
-    font-size: 24;
-    padding: 5px;
-}
+    padding: 15px 5px;
+    gap: 20px; }
+  .flex-img img {
+    width: 90%; }
+  .g3 p {
+    font-size: 16px; }
+  footer {
+    flex-direction: column;
+    gap: 15px; } }

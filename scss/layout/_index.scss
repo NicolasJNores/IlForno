@@ -1,0 +1,15 @@
+/* nosotros  */
+
+.col-md-6 {
+    font-family: 'Italianno';
+}
+/* FONDO FIJO  */
+.fondo-fijo {
+    background-image: url(../assets/pizza-in-oven.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 200px;
+}

@@ -1,0 +1,31 @@
+/* PAGINA PRODUCTOS*/
+
+.tarjetas {
+    background-color: #191919;
+    width: 100%;
+    padding: 40px 20px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.card {
+    background-color: #eee;
+    width: 100%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    
+}
+.tarjetas__divisor {
+    background-image: url(../assets/nosotros.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    height: 150px;
+    color: #fff;
+    font-family: Italianno;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

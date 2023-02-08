@@ -1,0 +1,20 @@
+/*incluir fuente localmente desde nuestra pc*/
+@font-face {
+    font-family: Italianno;
+    src: url(../assets/Italianno-Regular.ttf);
+}
+
+/* * = selector universal para reseteo de estilos por default del html*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul, ol, li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
