@@ -38,21 +38,6 @@ header {
   height: 70px;
   font-size: 32px; }
 
-.herobg {
-  background-image: url(../assets/nosotros.jpg);
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  color: #fff;
-  font-family: Italianno;
-  font-size: 40px;
-  width: 100%;
-  height: 300px;
-  display: flex;
-  align-items: center;
-  justify-content: center; }
-
 /* MAIN */
 .hero {
   background-image: url(../assets/pizza-in-oven.jpg);
@@ -100,6 +85,12 @@ footer {
         width: 100%;
         font-size: 24;
         padding: 5px; }
+    footer section .fa-facebook-f {
+      color: #3b5998; }
+    footer section .fa-instagram {
+      color: #FFC0CB; }
+    footer section .fa-twitter {
+      color: #00acee; }
   footer .footer-link {
     text-decoration: none;
     color: #fff;
@@ -146,7 +137,28 @@ footer {
   font-size: 20px;
   display: flex;
   align-items: center;
+  justify-content: center;
+  justify-content: space-evenly; }
+
+.herobg {
+  background-color: #fff;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: #000000;
+  font-family: Italianno;
+  font-size: 100px;
+  width: 100%;
+  height: 300px;
+  display: flex;
+  align-items: center;
   justify-content: center; }
+
+.carousel-item img {
+  width: 100%;
+  height: 600px;
+  object-fit: cover; }
 
 /* CONTACTO */
 .main {
@@ -156,67 +168,57 @@ footer {
   align-items: center;
   justify-content: center; }
 
-.formulario {
+.bg-dark {
   display: flex;
   align-items: center;
   width: 100%;
   padding: 10px; }
 
-.formulario img {
-  width: 60%;
-  height: 100%;
-  object-fit: cover; }
-
-.form {
+.col-md-6 .form {
   background: #000;
   color: #fff;
-  width: 100%;
-  height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   gap: 10px;
-  padding: 20px;
-  margin: 20px; }
+  padding: 20px; }
 
-.form__content {
+.col-md-6 .form__content {
   display: flex;
   flex-direction: column;
   gap: 10px;
   font-family: Italianno; }
 
-.form__content input {
+.col-md-6 .form__content input {
   padding: 10px;
   font-family: Italianno;
   background: #eee;
   border-radius: 5px; }
 
-.form__content textarea {
+.col-md-6 .form__content textarea {
   resize: none; }
 
-.form__content--check {
+.col-md-6 .form__content--check {
   display: flex;
   font-family: Italianno;
   width: 40%;
   align-items: center;
   justify-content: space-between; }
 
-.form__btn {
+.col-md-6 .form__btn {
   display: flex;
   justify-content: flex-end;
   gap: 10px; }
 
-.btn--form {
+.col-md-6 .btn--form {
   background-color: #950000; }
 
 @media only screen and (max-width: 900px) {
   .grilla {
-    background: #191919;
+    background: #36707b;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: auto;
-    grid-template-areas: 'area1 area2 area3'
- 'area1 area4 area5 '
- 'area6 area4 area7 '; }
+    grid-template-areas: 'area1 area2 area3' 'area1 area4 area5 ' 'area6 area4 area7 '; }
   .g__content {
     font-size: 24px; } }
 
@@ -224,25 +226,20 @@ footer {
   nav ul {
     width: 70%; }
   .grilla {
-    background: #191919;
+    background: #36437b;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: auto;
-    grid-template-areas: 'area1 area3'
- 'area1 area3'
- 'area6 area4'
- 'area2 area2'
- 'area5 area7'; } }
+    grid-template-areas: 'area1 area3' 'area1 area3' 'area6 area4' 'area2 area2' 'area5 area7'; } }
 
 @media only screen and (max-width: 480px) {
   header {
     height: 100%; }
   nav {
-    flex-direction: column;
-    height: 100%; }
+    flex-direction: column; }
   nav ul {
     flex-direction: column; }
   .grilla {
-    background: #fff;
+    background: #62367b;
     display: flex;
     flex-direction: column; }
   .flex-img {
