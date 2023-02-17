@@ -218,7 +218,9 @@ footer {
     background: #36707b;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: auto;
-    grid-template-areas: 'area1 area2 area3' 'area1 area4 area5 ' 'area6 area4 area7 '; }
+    grid-template-areas: 'area1 area2 area3'
+ 'area1 area4 area5 '
+ 'area6 area4 area7 '; }
   .g__content {
     font-size: 24px; } }
 
@@ -229,7 +231,11 @@ footer {
     background: #36437b;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: auto;
-    grid-template-areas: 'area1 area3' 'area1 area3' 'area6 area4' 'area2 area2' 'area5 area7'; } }
+    grid-template-areas: 'area1 area3'
+ 'area1 area3'
+ 'area6 area4'
+ 'area2 area2'
+ 'area5 area7'; } }
 
 @media only screen and (max-width: 480px) {
   header {
