@@ -6,8 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--Link a Bootstrap (antes del CSS para q no se pisen)-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <!--link a fontawesome-->
+    <link href="ruta/a/font-awesome.min.css" rel="stylesheet">
     <!--link al css-->
     <link rel="stylesheet" href="../css/style.css">
     <title>Il Forno | Productos</title>
@@ -43,11 +44,17 @@
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link text-white" href="./contacto.html">Contacto</a>
-                            </li>
+                            </li>   
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="./carrito.html">Carrito 
+                                    <i class="fa-regular fa-cart-shopping"></i>
+                                </a>
+                            </li>                                                                    
                         </ul>
                     </div>
                 </div>
-            </div>
+                                
+            </div>            
         </nav>
     </header>
 
@@ -92,60 +99,9 @@
         <!--Cards Bootstrap-->
         <section class="tarjetas container-fluid  ">
 
-            <div class="row d-flex w-100">
+            <div  id="seccion-productos" class="seccion-productos row d-flex w-100">
 
-                <div class="col-md-4 d-flex">
-                    <div class="card" style="">
-                        <img src="../assets/pizza1.jpg" class="card-img-top" alt="Pizza Muzzarella">
-                        <div class="tarjeta__contenedora card-body">
-                            <h5 class="card-title fs-1">Pizza de Muzzarella</h5>
-                            <p class="card-text fs-2"> Ingredientes:
-                            <ul class="fs-2">
-                                <li>- Muzzarella</li>
-                                <li>- Aceitunas negras</li>
-                            </ul>
-                            </p>
-                            <p>Precio: $1500,00.-</p>
-                            <a href="#" class="btn btn-primary fs-2 ">Comprar</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-4">
-                    <div class="card" style="">
-                        <img src="../assets/pizza2.jpg" class="card-img-top" alt="Pizza Primavera">
-                        <div class="tarjeta__contenedora card-body">
-                            <h5 class="card-title fs-1">Pizza Primavera</h5>
-                            <p class="card-text fs-2"> Ingredientes:
-                            <ul class="fs-2">
-                                <li>- Muzzarella</li>
-                                <li>- Aceitunas negras</li>
-                            </ul>
-                            </p>
-                            <p>Precio: $1500,00.-</p>
-                            <a href="#" class="btn btn-primary fs-2 ">Comprar</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-4">
-                    <div class="card" style="">
-                        <img src="../assets/pizza1.jpg" class="card-img-top" alt="Pizza Albahaca">
-                        <div class="tarjeta__contenedora card-body">
-                            <h5 class="card-title fs-1">Pizza De Albahaca</h5>
-                            <p class="card-text fs-2"> Ingredientes:
-                            <ul class="fs-2">
-                                <li>- Muzzarella</li>
-                                <li>- Aceitunas negras</li>
-                            </ul>
-                            </p>
-                            <p>Precio: $1500,00.-</p>
-                            <a href="#" class="btn btn-primary fs-2 ">Comprar</a>
-                        </div>
-                    </div>
-                </div>
-
-
+                
 
             </div>
         </section>
@@ -191,6 +147,8 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
         crossorigin="anonymous"></script>
+
+
     <!--Link al script de fontawesome-->
     <script src="https://kit.fontawesome.com/b500423cf3.js" crossorigin="anonymous"></script>
 </body>
